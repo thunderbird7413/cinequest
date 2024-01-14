@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.back_image{
+    width: 100vw;
+    margin-top: 90px;
+    height: 80vh;
+    background-image: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg;");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 15px solid gray;
+}
+.back_image1{
+    width: 100vw;
+    /* margin-top: 90px; */
+    height: 80vh;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_large.jpg");
+    border-bottom: 15px solid gray;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    position: absolute;
+    bottom: 0px;
+    height: 70%;
+    margin: 40px;
+    width: 50%;
+}
+.overlay1{
+    z-index: 1000;
+    opacity: 5;
+    position: absolute;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: center;
+}
+.overlay1 p{
+    text-align: center
+}
+.heading1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.subTitle{
+    font-size: 3rem;
+}
+.para{
+    width: 50%;
+    font-size: 2rem;
+}
+.para1{
+    width: 100%;
+    font-size: 2rem;
+}
+.para2{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    /* margin-left: 30px; */
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50vh;
+    justify-content: space-around;
+}
+.information .write{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image_section{
+    background-image: url("https://png.pngtree.com/background/20230525/original/pngtree-mobile-phone-tablet-and-laptop-on-black-background-animated-and-retouched-picture-image_2733187.jpg");
+    height: 300px;
+    width: 580px;
+    background-size: cover;
+    border-radius: 15px;
+    /* padding: 20px; */
+}
+.footer{
+    background-color: darkgray;
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+.continue_btn{
+    background-color: #0F79AF;
+    width: 20rem;
+    transition: transform 0.3s ease-in-out;
+}
+.continue_btn:hover {
+    transform: translateY(-5px); /* Move the button 5 pixels up on hover */
+  }
+  
+.continue_btn:active {
+    transform: translateY(5px); /* Move the button 5 pixels down when clicked */
+  }
+.continue_btn a{
+    font-weight: normal;
+}

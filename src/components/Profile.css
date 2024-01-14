@@ -1,0 +1,88 @@
+.bahar1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 80px;
+  margin-top: 70px;
+}
+.box1 {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+.profile_img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.heading {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contents {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.fav_btn {
+  font-size: 1rem;
+  width: 100%;
+  margin: 0px 0px 15px 0px;
+}
+.view_btn {
+  width: 100%;
+  text-align: center;
+}
+.image {
+  height: 250px;
+}
+.upar_ka_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 40px;
+  background-image: url("https://wallpapers.com/images/hd/profile-picture-background-10tprnkqwqif4lyv.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ffffff;
+}
+.image_box {
+  display: flex;
+  justify-content: center;
+}
+.footer_Section {
+  background-color: #f0f0f0;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+  color: black;
+}
+
+.foot {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.footer_Section1 {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}

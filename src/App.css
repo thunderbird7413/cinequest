@@ -1,0 +1,24 @@
+.App {
+  color: white;
+  background-color: #00050d;
+  font-style: sans-serif;
+}
+
+.btn1{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-top: 15px;
+  /* border-bottom: 2px solid aqua; */
+
+}
+button {
+  font-size: 2rem;
+  background-color: #D81B60;
+  color: white;
+  border-radius: 9px;
+  padding: 8px 10px 8px 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
