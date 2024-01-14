@@ -2,7 +2,7 @@
   "homepage": "http://thunderbird7413.github.io/cinequest",
   "name": "movieapp",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
     "@testing-library/jest-dom": "^5.17.0",
