@@ -76,7 +76,7 @@ function App() {
           {showAlert && <Alert />}
           <Header showAlert={showAlert} />
           <Routes>
-            <Route path="/" element={<LandingPage />}></Route>
+            <Route path="/cinequest" element={<LandingPage />}></Route>
             <Route path="/home" element={<Home />}></Route>
             <Route exact path="/movies/top_rated" element={<Card />}></Route>
             <Route exact path="movies/popular" element={<Popular />}></Route>
