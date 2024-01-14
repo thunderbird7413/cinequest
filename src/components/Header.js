@@ -233,7 +233,7 @@ export default function Header({ showAlert }) {
                   }}
                   onClick={() =>
                     logout({
-                      logoutParams: { returnTo: window.location.origin },
+                      logoutParams: { returnTo: "http://thunderbird7413.github.io/cinequest" },
                     })
                   }
                   type="button"
