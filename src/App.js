@@ -71,7 +71,7 @@ function App() {
       scope="update:current_user_metadata read:current_user "
     >
       <div className="App">
-        <Router>
+        <Router basename="/cinequest">
           {/* Alert for 3 seconds when "Add to Favorites" button is clicked */}
           {showAlert && <Alert />}
           <Header showAlert={showAlert} />
