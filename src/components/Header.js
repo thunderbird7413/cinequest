@@ -22,7 +22,7 @@ export default function Header({ showAlert }) {
           }}
         >
           <div className="container-fluid">
-            <Link className="nav-link active" aria-current="page" to="/cinequest">
+            <Link className="nav-link active" aria-current="page" to="/">
               <img
                 style={{ height: "60px", width: "60px", borderRadius: "50%" }}
                 src={Logo}
@@ -233,7 +233,7 @@ export default function Header({ showAlert }) {
                   }}
                   onClick={() =>
                     logout({
-                      logoutParams: { returnTo: "http://thunderbird7413.github.io/cinequest/callback" },
+                      logoutParams: { returnTo: window.location.origin },
                     })
                   }
                   type="button"

@@ -65,18 +65,18 @@ function App() {
       domain="dev-obx555c1z6rfkbof.us.auth0.com"
       clientId="1DsK1DLQAA131Tz6puAY2CikI4z7Tl2G"
       authorizationParams={{
-        redirect_uri: "http://thunderbird7413.github.io/cinequest/callback",
+        redirect_uri: window.location.origin,
       }}
       audience="https://api.cinequest.com"
       scope="update:current_user_metadata read:current_user "
     >
       <div className="App">
-        <Router basename="/cinequest">
+        <Router>
           {/* Alert for 3 seconds when "Add to Favorites" button is clicked */}
           {showAlert && <Alert />}
           <Header showAlert={showAlert} />
           <Routes>
-            <Route path="/cinequest" element={<LandingPage />}></Route>
+            <Route path="/" element={<LandingPage />}></Route>
             <Route path="/home" element={<Home />}></Route>
             <Route exact path="/movies/top_rated" element={<Card />}></Route>
             <Route exact path="movies/popular" element={<Popular />}></Route>
