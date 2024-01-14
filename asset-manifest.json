@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/cinequest/static/css/main.b3b9f7b5.css",
-    "main.js": "/cinequest/static/js/main.3de9d91f.js",
+    "main.js": "/cinequest/static/js/main.b883d6d5.js",
     "static/js/787.90f0e5dd.chunk.js": "/cinequest/static/js/787.90f0e5dd.chunk.js",
     "static/media/Korina Claudia.jpg": "/cinequest/static/media/Korina Claudia.11540318d498ea7fdbac.jpg",
     "index.html": "/cinequest/index.html",
     "main.b3b9f7b5.css.map": "/cinequest/static/css/main.b3b9f7b5.css.map",
-    "main.3de9d91f.js.map": "/cinequest/static/js/main.3de9d91f.js.map",
+    "main.b883d6d5.js.map": "/cinequest/static/js/main.b883d6d5.js.map",
     "787.90f0e5dd.chunk.js.map": "/cinequest/static/js/787.90f0e5dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3b9f7b5.css",
-    "static/js/main.3de9d91f.js"
+    "static/js/main.b883d6d5.js"
   ]
 }
