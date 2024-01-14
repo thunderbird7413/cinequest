@@ -233,7 +233,7 @@ export default function Header({ showAlert }) {
                   }}
                   onClick={() =>
                     logout({
-                      logoutParams: { returnTo: "http://thunderbird7413.github.io/cinequest" },
+                      logoutParams: { returnTo: "http://thunderbird7413.github.io/cinequest/callback" },
                     })
                   }
                   type="button"

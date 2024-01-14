@@ -65,7 +65,7 @@ function App() {
       domain="dev-obx555c1z6rfkbof.us.auth0.com"
       clientId="1DsK1DLQAA131Tz6puAY2CikI4z7Tl2G"
       authorizationParams={{
-        redirect_uri: "http://thunderbird7413.github.io/cinequest",
+        redirect_uri: "http://thunderbird7413.github.io/cinequest/callback",
       }}
       audience="https://api.cinequest.com"
       scope="update:current_user_metadata read:current_user "
