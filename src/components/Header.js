@@ -22,7 +22,7 @@ export default function Header({ showAlert }) {
           }}
         >
           <div className="container-fluid">
-            <Link className="nav-link active" aria-current="page" to="/">
+            <Link className="nav-link active" aria-current="page" to="/cinequest">
               <img
                 style={{ height: "60px", width: "60px", borderRadius: "50%" }}
                 src={Logo}
